@@ -3,6 +3,8 @@ Source codes, raw data and complete results of  paper Off-line vs. On-line Evalu
 
 The paper as well as this repository is based on the preliminary version (https://arxiv.org/abs/1809.03186) presented at REVEAL 2018 vorkshop. For instructions on running the recommending algorithms and off-line evaluation, please refer to https://github.com/lpeska/REVEAL2018 repository. This repository mainly contains data and processed results for on-line evaluation and models aiming to predict on-line performance from off-line results.
 
+- on-line results are processed in OnlineResultsEvaluation.ipynb file
+
 ## Abstract
 In this paper, we present our work towards comparing on-line and off-line evaluation metrics in the context of small e-commerce recommender systems. Recommending on small e-commerce enterprises is rather challenging due to the lower volume of interactions and low user loyalty, rarely extending beyond a single session. On the other hand, we usually have to deal with lower volumes of objects, which are easier to discover by users through various browsing/searching GUIs.
 
