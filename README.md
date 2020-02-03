@@ -1,9 +1,11 @@
 # UMAP2020
 Source codes, raw data and complete results of  paper Off-line vs. On-line Evaluation of Recommender Systems in Small E-commerce submitted to UMAP2020
 
-The paper as well as this repository is based on the preliminary version (https://arxiv.org/abs/1809.03186) presented at REVEAL 2018 vorkshop. For instructions on running the recommending algorithms and off-line evaluation, please refer to https://github.com/lpeska/REVEAL2018 repository. This repository mainly contains data and processed results for on-line evaluation and models aiming to predict on-line performance from off-line results.
+The paper as well as this repository is based on the preliminary version (https://arxiv.org/abs/1809.03186) presented at REVEAL 2018 vorkshop. For instructions on running the recommending algorithms, off-line evaluation and raw results of the on-line evaluation. please refer to https://github.com/lpeska/REVEAL2018 repository. This repository contains scripts to process on-line evaluation, regression models aiming to predict the on-line results based on the off-line ones and results of the second on-line experiment aiming to evaluate these models.
 
-- on-line results are processed in OnlineResultsEvaluation.ipynb file
+- original on-line results are processed in OnlineResultsEvaluation.ipynb file
+- several off-line to on-line prediction models are evaluated there as well
+- results of scedond on-line experiment are within the online_results2 folder
 
 ## Abstract
 In this paper, we present our work towards comparing on-line and off-line evaluation metrics in the context of small e-commerce recommender systems. Recommending on small e-commerce enterprises is rather challenging due to the lower volume of interactions and low user loyalty, rarely extending beyond a single session. On the other hand, we usually have to deal with lower volumes of objects, which are easier to discover by users through various browsing/searching GUIs.
