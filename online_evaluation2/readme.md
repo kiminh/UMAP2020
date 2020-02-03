@@ -1,0 +1,1 @@
+This folder contains the results of the second on-line evaluation considering the best methods of the previous round and the best methods predicted by the LASSO model, considering users profile size and off-line metrics of individual recommenders.
